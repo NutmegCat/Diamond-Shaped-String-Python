@@ -34,6 +34,7 @@ while should_continue:
     input_str = input("Enter a word (or type 'exit' to quit): ")
 
     if input_str.lower() == "exit":
+        print("Exiting...")
         should_continue = False
     elif len(input_str) > 10:
         print("Input word is too long. Please enter another word.")
